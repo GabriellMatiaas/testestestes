@@ -1,0 +1,247 @@
+header {
+    position: fixed; /* Torna o cabeçalho fixo no topo */
+    top: 0; /* Coloca o cabeçalho no topo da página */
+    width: 100%; /* Define a largura como 100% */
+    background-color: #070606;                         /*212121 cinza escuro*/
+    color: #fcfafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+
+header li, h1 {
+    margin: 0; /* Remove margens padrão */
+    padding: 0 5px; /* Adiciona espaçamento interno ao texto */
+}
+
+
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 90px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .duas-colunas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coluna-esquerda, .coluna-direita {
+    width: 58%; 
+    padding: 5px;
+}
+
+/* Acima parte das frases uma ao lado da outra */
+
+
+.duas-imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duas-imagens img {
+    margin: 20px;
+    width: 35%;
+    max-height: 100%; 
+}
+
+/* Acima Imagens uma ao lado da outra*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #b5b5b5;
+    margin-top: 5px;
+  }
+  /* styles.css */
+
+.icon-link {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #3498db; /* Cor do link */
+  }
+
+  .icon-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: #b5b5b5;
+  }
+
+  .icon-link {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  /* ícones para ficarem fixados */
+
+  .image {
+    margin: 30px; /* Espaçamento entre as imagens */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10vh;
+  }
+
+  .image-beleza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Espaçamento entre as frases e as imagens */
+  }
+
+  /* Local das Imagens */
+
+  .igreja {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 76px;
+    margin-bottom: 1px; /* Reduza este valor para ajustar a distância */
+
+  }
+
+
+
+
+  .inscricao {
+    text-align: center;
+    padding: 40px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .inscricao-button {
+    background-color: #515151;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .credenciamento {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+
+
+  #map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura total da tela */
+    margin: 10px; /* Adicione margens para controlar a distância da borda */
+}
+
+/* Ajusta o tamanho do iframe */
+iframe {
+    width: 90%; /* Ajuste a largura conforme necessário */
+    height: 80vh; /* Ajuste a altura conforme necessário */
+}
+
+
+a {
+    color: rgb(250, 249, 249); /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+section {
+    padding-top: 100px; /* Adicione o mesmo valor da margem superior do corpo (espaço do cabeçalho) */
+}
+
+/* Estilos gerais */
+
+/* Estilos para dispositivos móveis (iPhone 11 e tamanhos semelhantes) */
+@media (max-width: 375px) {
+  body {
+      font-size: 14px;
+  }
+
+  header {
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  header img {
+      width: 80px;
+      height: auto;
+  }
+
+  ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+  }
+
+  li {
+      margin: 0;
+  }
+
+  main {
+      padding: 20px 10px;
+  }
+
+  .duas-colunas {
+      flex-direction: column;
+  }
+
+  .coluna-direita {
+      margin-top: 20px;
+  }
+
+  .image {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .inscricao-button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      font-size: 14px;
+  }
+
+  .icon-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+  }
+
+  .icon {
+      width: 30px;
+      height: auto;
+  }
+
+  #map-container iframe {
+      width: 100%;
+      height: 200px;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrições</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="imagens/0d48a07d-6aa5-4a5d-abc4-692d8e402e54.jpg" type="image/x-icon">
+
+
+
+
+
+
+  <!--  <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var form = document.querySelector("form");
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                
+                // Execute ação para enviar email (isso pode ser feito via API ou serviço de email)
+                // Exemplo de código fictício para enviar email:
+                // enviarEmail(form);
+
+                // Redirecionar para a próxima página
+                window.location.href = "pag00.html";
+            });
+        });
+    </script> -->
+
+
+
+
+
+</head>
+<body>
+    <!-- <a class="whatsapp-button" href="https://wa.me/83986626511" target="_blank" rel="noopener noreferrer">
+        <img src="imagens/pngwing.com (1).png" alt="WhatsApp">
+     </a> -->
+     
+     <!-- Botão para fixar o Whatsapp no final da tela -->
+
+     <!--<header> serve para indicar para os navegadores onde está o cabeçalho do nosso site 
+        <h1> Tetelestai 2023 </h1> 
+            <ul>
+                <li>Ínicio</li>
+                <li>Informações</li>
+                <li>Imagens</li>
+                <li>Inscrições</li>
+            </ul>
+    </header> -->
+
+    <!-- Cabeçalho -->
+      <!-- ícones para entrar diretamente na rede social apresentada -->
+
+  <section>
+        <h2>Inscrição</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label> Nome </label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label> E-mail </label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label> Idade/Observação </label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" autocomplete="off" required></textarea>
+            <button type="submit">Enviar</button>
+                 
+                <input type="hidden" name="accessKey" value="4d4d7cf6-38a0-43ec-bd61-184f5a5d2bf2">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/pag00.html">
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
